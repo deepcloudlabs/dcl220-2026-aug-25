@@ -1,12 +1,10 @@
 # DCL-220: Java Design Patterns and Principles
 
-[![Course](https://img.shields.io/badge/Course-DCL--220-1f6feb)](https://courseware.deepcloudlabs.com/havelsan/dcl-220/index.html)
 [![Language](https://img.shields.io/badge/Language-Java-e76f00)](https://www.java.com/)
 [![Provider](https://img.shields.io/badge/Provider-DEEPCLOUDLABS-243b53)](https://www.deepcloudlabs.com/)
 
 **DCL-220: Java Design Patterns and Principles** is a professional training course delivered by **DEEPCLOUDLABS** for software engineers and software architects. The course develops the analytical and implementation skills required to solve object-oriented design problems using established design principles and reusable design patterns.
 
-> **Official courseware:** [courseware.deepcloudlabs.com/havelsan/dcl-220](https://courseware.deepcloudlabs.com/havelsan/dcl-220/index.html)
 
 ## Course Information
 
@@ -62,29 +60,6 @@ javac --version
 
 ## Course Materials
 
-### Lecture Notes
-
-| Section | Material |
-| --- | --- |
-| Introduction | [introduction.pdf](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/introduction.pdf) |
-| Module 1 | [Object Design Fundamentals](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod01-object_design_fundamentals.pdf) |
-| Module 2 | [OOP Principles and Design Patterns](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod02-oop_principles_and_design_patterns.pdf) |
-| Module 3 | [Interface Patterns](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod03-interface_patterns.pdf) |
-| Module 4 | [Responsibility Patterns](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod04-responsibility_patterns.pdf) |
-| Module 5 | [Construction Patterns](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod05-construction_patterns.pdf) |
-| Module 6 | [Operation Patterns](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod06-operation_patterns.pdf) |
-| Module 7 | [Extension Patterns](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lecture-notes/mod07-extension_patterns.pdf) |
-
-The courseware portal also provides session-specific whiteboard notes, flip-chart notes, and downloadable lab workspaces.
-
-## 2026 Training Sessions and Lab Repositories
-
-| Training dates | GitHub repository | Lab workspace |
-| --- | --- | --- |
-| August 25–27, 2026 | [dcl220-2026-aug-25](https://github.com/deepcloudlabs/dcl220-2026-aug-25) | [Download ZIP](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lab-solutions/2026/aug-25/workspace-dcl220-2026-aug-25.zip) |
-| September 1–3, 2026 | [dcl220-2026-sep-01](https://github.com/deepcloudlabs/dcl220-2026-sep-01) | [Download ZIP](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lab-solutions/2026/sep-01/workspace-dcl220-2026-sep-01.zip) |
-| October 6–8, 2026 | [dcl220-2026-oct-06](https://github.com/deepcloudlabs/dcl220-2026-oct-06) | [Download ZIP](https://courseware.deepcloudlabs.com/havelsan/dcl-220/lab-solutions/2026/oct-06/workspace-dcl220-2026-oct-06.zip) |
-
 ## Recommended Workflow
 
 1. Review the introduction and the relevant module notes.
@@ -105,8 +80,6 @@ The courseware portal also provides session-specific whiteboard notes, flip-char
 - Craig Larman. *Applying UML and Patterns*. 3rd ed., 2004.
 - Joshua Kerievsky. *Refactoring to Patterns*. 2004.
 - Grady Booch et al. *Object-Oriented Analysis and Design with Applications*. 3rd ed., 2007.
-
-For the complete bibliography, consult the [official courseware page](https://courseware.deepcloudlabs.com/havelsan/dcl-220/index.html).
 
 ## Usage
 
