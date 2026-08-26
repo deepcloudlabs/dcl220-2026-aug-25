@@ -13,7 +13,6 @@ public class StudyCollectionsAPIFacede {
 		var numbers = new ArrayList<>(List.of(4,8,15,16,23,42));
 		Collections.sort(numbers);
 		Files.copy(Path.of("c:/tmp", "readme.txt"), Path.of("c:/tmp","readme.copy.txt"));
-	
 	}
 
 }
