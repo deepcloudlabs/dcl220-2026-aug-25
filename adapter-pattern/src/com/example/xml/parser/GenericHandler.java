@@ -29,9 +29,7 @@ public class GenericHandler<T> extends DefaultHandler {
         }
     }
 
-    @Override
-    public void endDocument() throws SAXException {
-    }
+
 
     @Override
     public void startDocument() throws SAXException {

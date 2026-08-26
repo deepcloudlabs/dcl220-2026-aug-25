@@ -5,7 +5,6 @@ package com.example.model;
  * @author Binnur Kurt <binnur.kurt@gmail.com>
  */
 public class Country {
-
     private String Code;
     private String Name;
     private String Continent;
