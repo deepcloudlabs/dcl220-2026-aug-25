@@ -12,7 +12,7 @@ public class BridgePatternThreadPool {
 		System.out.println("Application is just started.");
 		// Executors.newXYZ() --> ExecutorService -- submit --> Future
 		//                  bridge                        bridge
-		ExecutorService es = Executors.newWorkStealingPool();		
+		ExecutorService es = Executors.newSingleThreadExecutor();		
 		System.out.println(es.getClass());
 		Future<Integer> result = es.submit(() -> {
 			TimeUnit.SECONDS.sleep(5);
