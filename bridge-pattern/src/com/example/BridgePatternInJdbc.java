@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public interface BridgePatternInJdbc {
 	public static void main(String[] args) throws SQLException {
-		// DriverManager --> Connection --> PreparedStatement --> ResultSet
+		// DriverManager -- getConnection --> Connection -- prepareStatement --> PreparedStatement -- executeQuery --> ResultSet
 		//            Bridge          Bridge                 Bridge
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/world?useSSL=false&allowPublicKeyRetrieval=true", "root",
 				"Secret_123");
