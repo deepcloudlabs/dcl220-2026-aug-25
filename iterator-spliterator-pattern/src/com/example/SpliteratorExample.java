@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 public class SpliteratorExample {
 
 	public static void main(String[] args) {
-		List<Integer> numbers1 = IntStream.range(0, 10).boxed().collect(Collectors.toList());
+		List<Integer> numbers1 = IntStream.range(0, 10).boxed().toList();
 		Spliterator<Integer> spliterator = numbers1.spliterator();
 
 		// Spliterator is used for traversing sequences
@@ -17,7 +17,7 @@ public class SpliteratorExample {
 
 		// Spliterator is used for partitioning sequences
 		System.err.println("=====spliterator estimate size====");
-		List<Integer> numbers2 = IntStream.range(0, 10).boxed().collect(Collectors.toList());
+		List<Integer> numbers2 = IntStream.range(0, 10).boxed().toList();
 		Spliterator<Integer> spliterator1 = numbers2.spliterator();
 		Spliterator<Integer> spliterator2 = spliterator1.trySplit();
 		System.err.println("spliterator1.estimateSize(): "+spliterator1.estimateSize());

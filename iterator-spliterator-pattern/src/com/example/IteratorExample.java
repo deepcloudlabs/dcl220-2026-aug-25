@@ -1,12 +1,12 @@
 package com.example;
 
 import java.util.Iterator;
-import java.util.List;
+import java.util.Set;
 
 public class IteratorExample {
 
 	public static void main(String[] args) {
-		List<Integer> numbers = List.of(4,8,23,42,15,16);
+		var numbers = Set.of(4,8,23,42,15,16);
 		
 		// outer loop #1
 		for (Iterator<Integer> iter = numbers.iterator(); iter.hasNext();) {
