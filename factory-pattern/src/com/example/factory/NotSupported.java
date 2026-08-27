@@ -9,8 +9,7 @@ import java.awt.Image;
 public class NotSupported implements ImageReader {
 
 	public Image loadImage() {
-		System.out.println("This format is not supported yet!");
-		return null;
+		throw new IllegalArgumentException("This format is not supported yet!");
 	}
 
 }

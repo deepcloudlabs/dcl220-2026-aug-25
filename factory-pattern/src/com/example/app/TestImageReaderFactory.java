@@ -8,7 +8,7 @@ import com.example.factory.*;
  */
 public class TestImageReaderFactory {
 	public static void main(String[] args) {
-		ImageReader reader = ImageReaderFactory.createImageReader("my.secret.avi");
+		ImageReader reader = ImageReaderFactory.createImageReader("my.secret.gif");
 		reader.loadImage();
 	}
 }

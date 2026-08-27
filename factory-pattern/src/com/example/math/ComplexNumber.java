@@ -35,12 +35,15 @@ public class ComplexNumber {
 		this.real = real;
 	}
 
+	// factory method
 	public static ComplexNumber fromPolar(double r, double ang) {
+		if (r<0) throw new IllegalArgumentException("r cannot be negative");
 		return new ComplexNumber(r * cos(ang), r * sin(ang));
 	}
 
-	public static ComplexNumber fromCartesian(double a, double b) {
-		return new ComplexNumber(a, b);
+	// factory method
+	public static ComplexNumber fromCartesian(double x, double y) {
+		return new ComplexNumber(x, y);
 	}
 
 	@Override

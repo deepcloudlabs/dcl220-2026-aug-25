@@ -52,6 +52,7 @@ public class User {
         }
 
         public User build() {
+        	// object-pooling -> flyweight pattern
             if (username == null || username.isBlank()) {
                 throw new IllegalStateException(
                         "Username must not be empty"
